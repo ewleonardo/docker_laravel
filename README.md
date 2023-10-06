@@ -104,13 +104,13 @@ Acessar o projeto
 
 **🟢 Documentações:**
 
-    - [Laravel](https://laravel.com/);
-    - [Docker](https://docs.docker.com/);
-    - [Git](https://docs.github.com/pt).
+- [Laravel](https://laravel.com/);
+- [Docker](https://docs.docker.com/);
+- [Git](https://docs.github.com/pt).
 
 **🟢 Sites**
 
-    - [Comandos Básico MySQL](https://www.diegobrocanelli.com.br/mysql/comandos-basicos-mysql-no-terminal/);
+- [Comandos Básico MySQL](https://www.diegobrocanelli.com.br/mysql/comandos-basicos-mysql-no-terminal/);
 
 ## Referências
 
