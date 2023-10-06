@@ -10,27 +10,27 @@ Nesta base de passo a passo, você aprenderá como desenvolver um projeto Larave
 
 1. **Instale o laravel na versão desejada:**
 
-    - SubPasso 1: (Instalação do laravel)[https://laravel.com/docs/master#your-first-laravel-project];
+    - SubPasso 1: [Instalação do laravel](https://laravel.com/docs/master#your-first-laravel-project);
         - Obs 1: Você deve saber qual a versão do _Laravel_ o Projeto vai usar.
         - Obs 2: Você deve saber em qual versão do _PHP_ o Projeto funciona de acordo com a versão do _Laravel_.
 
 2. **Instale o docker e o docker-compose:**
 
-    - SubPasso 1: (Instalação do docker)[https://docs.docker.com/get-docker/].
-    - SubPasso 2: (Instalação do docker-compose)[https://docs.docker.com/compose/install/].
+    - SubPasso 1: [Instalação do docker](https://docs.docker.com/get-docker/).
+    - SubPasso 2: [Instalação do docker-compose](https://docs.docker.com/compose/install/).
 
 3. **Instale o git:**
 
-    - SubPasso 1: (Instalação do Git)[https://github.com/git-guides/install-git].
-        - Obs 2: Nessa ferramenta precisaremos usar o (`git clone`)[https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository].
+    - SubPasso 1: [Instalação do Git](https://github.com/git-guides/install-git).
+        - Obs 2: Nessa ferramenta precisaremos usar o [`git clone`](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository).
 
 ## Passo 2: Setup do _docker_ no projeto _laravel_
 
 1.  **Instale(ou clone) o projeto laravel**
 
     -   Formas de Instalação:
-        -   (composer)[https://www.diegobrocanelli.com.br/mysql/comandos-basicos-mysql-no-terminal/];
-        -   (github)[https://github.com/laravel/laravel].
+        -   [composer](https://www.diegobrocanelli.com.br/mysql/comandos-basicos-mysql-no-terminal/);
+        -   [github](https://github.com/laravel/laravel).
 
 2.  **Clone o repositório do setup**
 
@@ -99,13 +99,13 @@ Acessar o projeto
 
 1. **Documentações:**
 
-    - (Laravel)[https://laravel.com/];
-    - (Docker)[https://docs.docker.com/];
-    - (Git)[https://docs.github.com/pt].
+    - [Laravel](https://laravel.com/);
+    - [Docker](https://docs.docker.com/);
+    - [Git](https://docs.github.com/pt).
 
 2. **Sites**
 
-    - (Comandos Básico MySQL)[https://www.diegobrocanelli.com.br/mysql/comandos-basicos-mysql-no-terminal/];
+    - [Comandos Básico MySQL](https://www.diegobrocanelli.com.br/mysql/comandos-basicos-mysql-no-terminal/);
 
 ## Conclusão
 
@@ -114,6 +114,6 @@ Provavelmente, após seguir este passo a passo, você conseguiu subir seu projet
 
 ## Referências
 
--   (Vídeo)[https://www.youtube.com/watch?v=oz9K3jtFUvI]
--   (Repositório)[https://github.com/especializati/setup-docker-laravel.git]
+-   [Vídeo - Carlos Ferreira Laravel 10 (feat. Docker)](https://www.youtube.com/watch?v=oz9K3jtFUvI)
+-   [Repositório](https://github.com/especializati/setup-docker-laravel.git)
 -   **OBS:** No vídeo temos versão 10, 9 e 8 mas o método pode ser utilizado para outras versões fazendo algumas alterações na versão _php_ do _dockerfile_.
