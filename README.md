@@ -4,7 +4,7 @@ Nesta base de passo a passo, você aprenderá como desenvolver um projeto Larave
 
 ## 1º Passo: Instalação das Ferramentas
 
-**Instale o laravel na versão desejada:**
+**🟢 Instale o laravel na versão desejada:**
 
 - [Instalação do laravel](https://laravel.com/docs/master#your-first-laravel-project)
 - Observação: Você deve saber qual a versão do _Laravel_ o Projeto vai usar. Você também deve saber em qual versão do _PHP_ o Projeto funciona de acordo com a versão do _Laravel_.
