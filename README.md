@@ -9,15 +9,15 @@ Nesta base de passo a passo, você aprenderá como desenvolver um projeto Larave
 - [Instalação do laravel](https://laravel.com/docs/master#your-first-laravel-project)
 - Observação: Você deve saber qual a versão do _Laravel_ o Projeto vai usar. Você também deve saber em qual versão do _PHP_ o Projeto funciona de acordo com a versão do _Laravel_.
 
-2. **Instale o docker e o docker-compose:**
+**🟢 Instale o docker e o docker-compose:**
 
     - SubPasso 1: [Instalação do docker](https://docs.docker.com/get-docker/).
     - SubPasso 2: [Instalação do docker-compose](https://docs.docker.com/compose/install/).
 
-3. **Instale o git:**
+**🟢 Instale o git:**
 
-    - SubPasso 1: [Instalação do Git](https://github.com/git-guides/install-git).
-        - Obs 2: Nessa ferramenta precisaremos usar o [`git clone`](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository).
+- [Instalação do Git](https://github.com/git-guides/install-git).
+- Observação: Nesse método precisaremos usar o [`git clone`](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository).
 
 ## Passo 2: Setup do _docker_ no projeto _laravel_
 
