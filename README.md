@@ -72,7 +72,7 @@ Subir containers
 docker-compose up -d
 ```
 
-Remova os containers
+Desligar containers
 
 ```sh
 docker-compose down -v
