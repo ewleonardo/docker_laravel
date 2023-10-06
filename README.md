@@ -6,28 +6,27 @@ Nesta base de passo a passo, você aprenderá como desenvolver um projeto Larave
 
 **🟢 Instale o laravel na versão desejada:**
 
-- [Instalação do laravel](https://laravel.com/docs/master#your-first-laravel-project)
-- Observação: Você deve saber qual a versão do _Laravel_ o Projeto vai usar. Você também deve saber em qual versão do _PHP_ o Projeto funciona de acordo com a versão do _Laravel_.
+-   [Instalação do laravel](https://laravel.com/docs/master#your-first-laravel-project)
+-   Observação: Você deve saber qual a versão do _Laravel_ o Projeto vai usar. Você também deve saber em qual versão do _PHP_ o Projeto funciona de acordo com a versão do _Laravel_.
 
 **🟢 Instale o docker e o docker-compose:**
 
-- [Instalação do docker](https://docs.docker.com/get-docker/).
-- [Instalação do docker-compose](https://docs.docker.com/compose/install/).
+-   [Instalação do docker](https://docs.docker.com/get-docker/).
+-   [Instalação do docker-compose](https://docs.docker.com/compose/install/).
 
 **🟢 Instale o git:**
 
-- [Instalação do Git](https://github.com/git-guides/install-git).
-- Observação: Nesse método precisaremos usar o [`git clone`](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository).
+-   [Instalação do Git](https://github.com/git-guides/install-git).
+-   Observação: Nesse método precisaremos usar o [`git clone`](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository).
 
 ## Passo 2: Setup do _docker_ no projeto _laravel_
 
-1.  **Instale(ou clone) o projeto laravel**
+**🟢 Instale(ou clone) o projeto laravel**
 
-    -   Formas de Instalação:
-        -   [composer](https://www.diegobrocanelli.com.br/mysql/comandos-basicos-mysql-no-terminal/);
-        -   [github](https://github.com/laravel/laravel).
+-   [Via composer](https://www.diegobrocanelli.com.br/mysql/comandos-basicos-mysql-no-terminal/);
+-   [Via git clone](https://github.com/laravel/laravel).
 
-2.  **Clone o repositório do setup**
+**🟢 Clone o repositório do setup**
 
 -   Clone o repositório que contém as configurações docker e docker-compose
 
