@@ -11,8 +11,8 @@ Nesta base de passo a passo, você aprenderá como desenvolver um projeto Larave
 
 **🟢 Instale o docker e o docker-compose:**
 
-    - SubPasso 1: [Instalação do docker](https://docs.docker.com/get-docker/).
-    - SubPasso 2: [Instalação do docker-compose](https://docs.docker.com/compose/install/).
+- [Instalação do docker](https://docs.docker.com/get-docker/).
+- [Instalação do docker-compose](https://docs.docker.com/compose/install/).
 
 **🟢 Instale o git:**
 
