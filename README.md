@@ -31,7 +31,7 @@ Nesta base de passo a passo, você aprenderá como desenvolver um projeto Larave
 -   Clone o repositório que contém as configurações docker e docker-compose
 
 ```sh
-git clone https://github.com/ewleonardo/docker_laravel
+git clone https://github.com/ewleonardo/docker_laravel.git
 ```
 
 -   Após o fim da clonagem. Cópie todos os arquivos e diretórios para a raiz do seu projeto.
@@ -47,7 +47,7 @@ APP_NAME="Nome_do_projeto"
 APP_URL=http://localhost:8989
 
 DB_CONNECTION=mysql
-DB_HOST=db              // NAME do container com o banco de dados
+DB_HOST=db              // Nome do container que contém o banco de dados.
 DB_PORT=3306
 DB_DATABASE=laravel
 DB_USERNAME=root
