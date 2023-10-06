@@ -34,13 +34,19 @@ Nesta base de passo a passo, você aprenderá como desenvolver um projeto Larave
 
 2.  **Clone o repositório do setup**
 
-        - Clone o repositório que contém as configurações docker e docker-compose
-            - Comando para clonar o setup: `git clone https://github.com/ewleonardo/docker_laravel`.
+-   Clone o repositório que contém as configurações docker e docker-compose
 
-        - Após o fim da clonagem
-            - Cópie todos os arquivos e diretórios para a raiz do seu projeto `cp -rf docker-laravel/* nome-projeto/`.
+```sh
+git clone https://github.com/ewleonardo/docker_laravel
+```
 
-        - Atualize as seguintes variáveis de ambiente do arquivo .env do seu projeto laravel
+-   Após o fim da clonagem. Cópie todos os arquivos e diretórios para a raiz do seu projeto.
+
+```sh
+cp -rf docker-laravel/* nome-projeto/
+```
+
+-   Atualize as seguintes variáveis de ambiente do arquivo .env do seu projeto laravel
 
 ```dosini
 APP_NAME="Nome_do_projeto"
