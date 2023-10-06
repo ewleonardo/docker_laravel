@@ -2,7 +2,7 @@
 
 Nesta base de passo a passo, você aprenderá como desenvolver um projeto Laravel com Docker. Siga as etapas abaixo para obter sucesso.
 
-## 1º Passo: Instalação das Ferramentas
+## 1º Passo - Instalação das Ferramentas
 
 **🟢 Instale o laravel na versão desejada:**
 
@@ -19,7 +19,7 @@ Nesta base de passo a passo, você aprenderá como desenvolver um projeto Larave
 -   [Instalação do Git](https://github.com/git-guides/install-git).
 -   Observação: Nesse método precisaremos usar o [`git clone`](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository).
 
-## Passo 2: Setup do _docker_ no projeto _laravel_
+## 2º Passo - Setup do _docker_ no projeto _laravel_
 
 **🟢 Instale(ou clone) o projeto laravel**
 
@@ -62,11 +62,11 @@ REDIS_PASSWORD=null
 REDIS_PORT=6379
 ```
 
-3. **Suba os containers do projeto**
+**🟢 Suba os containers do projeto**
 
-    - OBS: Execute os comandos dentro do projeto já configurado
+-   Observação: Execute os comandos abaixo apenas quando o projeto já estiver com a configuração docker dentro dele.
 
-Subir containers
+    Subir containers
 
 ```sh
 docker-compose up -d
@@ -78,7 +78,7 @@ Remova os containers
 docker-compose down -v
 ```
 
-4.  **Comandos úteis para os containers**
+**🟢 Comandos úteis para os containers**
 
 Para acessar o container do projeto por terminal.
 
