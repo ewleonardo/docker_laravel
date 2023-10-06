@@ -6,9 +6,8 @@ Nesta base de passo a passo, você aprenderá como desenvolver um projeto Larave
 
 **Instale o laravel na versão desejada:**
 
-- SubPasso 1: [Instalação do laravel](https://laravel.com/docs/master#your-first-laravel-project);
-    - Obs 1: Você deve saber qual a versão do _Laravel_ o Projeto vai usar.
-    - Obs 2: Você deve saber em qual versão do _PHP_ o Projeto funciona de acordo com a versão do _Laravel_.
+- [Instalação do laravel](https://laravel.com/docs/master#your-first-laravel-project)
+- Observação: Você deve saber qual a versão do _Laravel_ o Projeto vai usar. Você também deve saber em qual versão do _PHP_ o Projeto funciona de acordo com a versão do _Laravel_.
 
 2. **Instale o docker e o docker-compose:**
 
