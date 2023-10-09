@@ -105,7 +105,7 @@ Nesta base de passo a passo, você aprenderá como desenvolver um projeto Larave
 
 ##### Interação com os Containers 🔹
 
-1. Acessar containers via terminal.
+1. Acessar terminal dos containers.
 
     ```sh
     docker-compose exec <container_id ou nome_do_container> bash
