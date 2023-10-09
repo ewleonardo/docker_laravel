@@ -37,7 +37,7 @@ git clone https://github.com/ewleonardo/docker_laravel.git
 -   Após o fim da clonagem. Cópie todos os arquivos e diretórios para a raiz do seu projeto.
 
 ```sh
-cp -rf docker-laravel/* nome-projeto/
+cp -rf docker_laravel/* nome-projeto/
 ```
 
 -   Atualize as seguintes variáveis de ambiente do arquivo .env do seu projeto laravel
