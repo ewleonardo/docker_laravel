@@ -1,6 +1,6 @@
-# Passo a Passo: Setup Docker para Projetos Laravel
+# Setup Docker para Projetos Laravel
 
--- Nesta base de passo a passo, você aprenderá como desenvolver um projeto Laravel utilizando Docker. Siga as etapas abaixo para obter sucesso no setup.
+Nesta base de passo a passo, você aprenderá como desenvolver um projeto Laravel utilizando Docker. Siga as etapas abaixo para obter sucesso no setup.
 
 ## Setup Linux 🐧
 
@@ -141,12 +141,12 @@
 
 ### 4️⃣ Documentações e Fontes
 
-##### -- [Laravel](https://laravel.com/)
+##### [Laravel](https://laravel.com/)
 
-##### -- [Docker](https://docs.docker.com/)
+##### [Docker](https://docs.docker.com/)
 
-##### -- [Git](https://docs.github.com/pt)
+##### [Git](https://docs.github.com/pt)
 
-##### -- [Video Yt](https://www.youtube.com/watch?v=oz9K3jtFUvI)
+##### [Video Yt](https://www.youtube.com/watch?v=oz9K3jtFUvI)
 
-##### -- [Repositório](https://github.com/especializati/setup-docker-laravel.git)
+##### [Repositório](https://github.com/especializati/setup-docker-laravel.git)
