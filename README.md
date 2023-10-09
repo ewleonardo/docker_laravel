@@ -1,119 +1,152 @@
 # Passo a Passo: Setup Docker para Projetos Laravel
 
-Nesta base de passo a passo, você aprenderá como desenvolver um projeto Laravel com Docker. Siga as etapas abaixo para obter sucesso.
+-- Nesta base de passo a passo, você aprenderá como desenvolver um projeto Laravel utilizando Docker. Siga as etapas abaixo para obter sucesso no setup.
 
-## 1º Passo - Instalação das Ferramentas
+## Setup Linux 🐧
 
-**🟢 Instale o laravel na versão desejada:**
+### 1️⃣ Instalação
 
--   [Instalação do laravel](https://laravel.com/docs/master#your-first-laravel-project)
--   Observação: Você deve saber qual a versão do _Laravel_ o Projeto vai usar. Você também deve saber em qual versão do _PHP_ o Projeto funciona de acordo com a versão do _Laravel_.
+##### Instalação do Laravel 🔹
 
-**🟢 Instale o docker e o docker-compose:**
+-   [Via Composer](https://laravel.com/docs/master#your-first-laravel-project)
+-   [Via Git Clone](https://github.com/laravel/laravel)
 
--   [Instalação do docker](https://docs.docker.com/get-docker/).
--   [Instalação do docker-compose](https://docs.docker.com/compose/install/).
+##### Instalação do Docker 🔹
 
-**🟢 Instale o git:**
+-   [Docker](https://docs.docker.com/desktop/install/linux-install/)
+    ```sh
+    sudo apt install docker
+    ```
+-   [docker-compose](https://docs.docker.com/compose/install/).
+    ```sh
+    sudo apt install docker-compose
+    ```
+
+##### Instalação do Git 🔹
 
 -   [Instalação do Git](https://github.com/git-guides/install-git).
--   Observação: Nesse método precisaremos usar o [`git clone`](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository).
+    ```sh
+    sudo apt install git-all
+    ```
 
-## 2º Passo - Setup do _docker_ no projeto _laravel_
+### 2️⃣ Montagem do Ambiente
 
-**🟢 Instale(ou clone) o projeto laravel**
+##### Criação do projeto 🔹
 
--   [Via composer](https://www.diegobrocanelli.com.br/mysql/comandos-basicos-mysql-no-terminal/);
--   [Via git clone](https://github.com/laravel/laravel).
+**_Instale(ou clone) o projeto laravel_**
 
-**🟢 Clone o repositório do setup**
+1. [Instalação do Laravel]()
 
--   Clone o repositório que contém as configurações docker e docker-compose
+##### Dockerizando o projeto 🔹
 
-```sh
-git clone https://github.com/ewleonardo/docker_laravel.git
-```
+1. [Instalação do Docker]().
+2. Clone o repositório das configurações docker para sua máquina.
 
--   Após o fim da clonagem. Cópie todos os arquivos e diretórios para a raiz do seu projeto.
+    ```sh
+    git clone https://github.com/ewleonardo/docker_laravel.git
+    ```
 
-```sh
-cp -rf docker_laravel/* nome-projeto/
-```
+3. Após o fim da clonagem. Cópie todos os arquivos e diretórios para a raiz do seu projeto.
 
--   Atualize as seguintes variáveis de ambiente do arquivo .env do seu projeto laravel
+    ```sh
+    cp -rf docker_laravel/* <nome_do_projeto>/
+    ```
 
-```dosini
-APP_NAME="Nome_do_projeto"
-APP_URL=http://localhost:8989
+4. Se não houver, crie o arquivo **".env"**. _(OPCIONAL)_
 
-DB_CONNECTION=mysql
-DB_HOST=db              // Nome do container que contém o banco de dados.
-DB_PORT=3306
-DB_DATABASE=laravel
-DB_USERNAME=root
-DB_PASSWORD=root
+    ```sh
+    cp .env.example .env
+    ```
 
-CACHE_DRIVER=redis
-QUEUE_CONNECTION=redis
-SESSION_DRIVER=redis
+5. Atualize as variáveis de ambiente do arquivo local **".env"** pelas seguintes informações.
 
-REDIS_HOST=redis
-REDIS_PASSWORD=null
-REDIS_PORT=6379
-```
+    ```
+    APP_NAME="nome_do_projeto"
+    APP_URL=http://localhost:8989
 
-**🟢 Suba os containers do projeto**
+    DB_CONNECTION=mysql
+    DB_HOST=db              // Nome do container do banco de dados.
+    DB_PORT=3306
+    DB_DATABASE=laravel
+    DB_USERNAME=root
+    DB_PASSWORD=root
 
--   Observação: Execute os comandos abaixo apenas quando o projeto já estiver com a configuração docker dentro dele.
+    CACHE_DRIVER=redis
+    QUEUE_CONNECTION=redis
+    SESSION_DRIVER=redis
 
-Subir containers
+    REDIS_HOST=redis
+    REDIS_PASSWORD=null
+    REDIS_PORT=6379
+    ```
 
-```sh
-docker-compose up -d
-```
+6. Iniciar os serviços do docker-compose.
 
-Desligar containers
+    ```sh
+    docker-compose up -d
+    ```
 
-```sh
-docker-compose down -v
-```
+7. Instalar dependências do projeto e gerar chave **"APP_KEY"** do **".env"**.
 
-**🟢 Comandos úteis para os containers**
+    ```sh
+    docker-compose exec <container_id ou nome_do_container> bash
+    ```
 
-Para acessar um container do projeto por terminal/bash.
+    ```sh
+    composer install
+    ```
 
-```sh
-docker-compose exec app bash
-```
+    ```sh
+    php artisan key:generate
+    ```
 
-Para acessar o container do mysql por terminal.
+8. Acessar o projeto
+   [http://localhost:8989](http://localhost:8989)
 
-```sh
-docker exec -it testecamaragibepegovbr_db_1 mysql -uroot -p
-```
+##### Interação com os Containers 🔹
 
-## 3º Passo - Conclusão
+1. Acessar containers via terminal.
 
-**Parabéns!**
-Provavelmente, após seguir este passo a passo, você conseguiu subir seu projeto _laravel_ utilizando _docker_!. Certifique-se de verificar se tudo foi feito corretamente e aproveite os resultados.
+    ```sh
+    docker-compose exec <container_id ou nome_do_container> bash
+    ```
 
-Acessar o projeto
-[http://localhost:8989](http://localhost:8989)
+2. Acessar diretamente o mysql de um container via terminal.
 
-## Dicas, sites e documentações
+    ```sh
+    docker exec -it <container_id ou nome_do_container> mysql -uroot -p
+    ```
 
-**🟢 Documentações:**
+3. Iniciar serviços docker-compose / Remover os serviços do docker-compose.
+    ```sh
+    docker-compose up -d
+    ```
+    ```sh
+    docker-compose down -v
+    ```
+4. Buildar a imagem. (No caso de alterações da configuração docker)
+    ```sh
+    docker-compose build
+    ```
+    | OR
+    ```sh
+    docker-compose up --build
+    ```
 
-- [Laravel](https://laravel.com/);
-- [Docker](https://docs.docker.com/);
-- [Git](https://docs.github.com/pt).
+### 3️⃣ Dicas e Precauções
 
-**🟢 Sites**
+##### Interação com os Containers 🔹
 
-- [Comandos Básico MySQL](https://www.diegobrocanelli.com.br/mysql/comandos-basicos-mysql-no-terminal/);
+1. [Comandos no bash MySQL](https://www.diegobrocanelli.com.br/mysql/comandos-basicos-mysql-no-terminal/);
 
-## Referências
+### 4️⃣ Documentações e Fontes
 
--   _Observação:_ Nos recursos abaixo, se trás as versões 10, 9 e 8 do laravel, mas o método pode ser utilizado para as demais versões mudando a versão do php usado.
--   [Vídeo - Carlos Ferreira Laravel 10 (feat. Docker)](https://www.youtube.com/watch?v=oz9K3jtFUvI)
--   [Repositório](https://github.com/especializati/setup-docker-laravel.git)
+##### -- [Laravel](https://laravel.com/)
+
+##### -- [Docker](https://docs.docker.com/)
+
+##### -- [Git](https://docs.github.com/pt)
+
+##### -- [Video Yt](https://www.youtube.com/watch?v=oz9K3jtFUvI)
+
+##### -- [Repositório](https://github.com/especializati/setup-docker-laravel.git)
