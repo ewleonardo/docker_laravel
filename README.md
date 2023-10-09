@@ -141,12 +141,16 @@ Nesta base de passo a passo, você aprenderá como desenvolver um projeto Larave
 
 ### 4️⃣ Documentações e Fontes
 
-##### [Laravel](https://laravel.com/)
+##### Documentações 🔹
 
-##### [Docker](https://docs.docker.com/)
+1. [Laravel](https://laravel.com/)
 
-##### [Git](https://docs.github.com/pt)
+2. [Docker](https://docs.docker.com/)
 
-##### [Video Yt](https://www.youtube.com/watch?v=oz9K3jtFUvI)
+3. [Git](https://docs.github.com/pt)
 
-##### [Repositório](https://github.com/especializati/setup-docker-laravel.git)
+##### Fontes 🔹
+
+1. [Video Yt](https://www.youtube.com/watch?v=oz9K3jtFUvI)
+
+2. [Repositório](https://github.com/especializati/setup-docker-laravel.git)
