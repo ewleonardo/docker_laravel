@@ -110,7 +110,7 @@ Nesta base de passo a passo, você aprenderá como desenvolver um projeto Larave
 1.  Acessar terminal dos containers.
 
     ```sh
-    docker compose exec <container_id ou nome_do_container> bash
+    docker compose exec <nome_do_container> bash
     ```
 
 2.  Acessar diretamente o mysql de um container via terminal.
