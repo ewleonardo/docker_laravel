@@ -148,6 +148,10 @@ Nesta base de passo a passo, você aprenderá como desenvolver um projeto Larave
 
 1. [Comandos no bash MySQL](https://www.diegobrocanelli.com.br/mysql/comandos-basicos-mysql-no-terminal/);
 
+##### Interação com os Containers 🔹
+
+1. [Corrigir importação de muitos registros](https://pt.stackoverflow.com/questions/37520/erro-1153-do-mysql-got-a-packet-bigger-than-max-allowed-packet-bytes);
+
 ### 4️⃣ Documentações e Fontes
 
 ##### Documentações 🔹
