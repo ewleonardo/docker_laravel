@@ -83,14 +83,16 @@ Nesta base de passo a passo, você aprenderá como desenvolver um projeto Larave
 6. Iniciar os serviços do docker-compose.
 
     ```sh
-    docker-compose up -d
+    docker compose up -d
     ```
 
-7. Instalar dependências do projeto e gerar chave **"APP_KEY"** do **".env"**.
+7. Entrar no container da aplicação.
 
     ```sh
-    docker-compose exec <container_id ou nome_do_container> bash
+    docker compose exec app bash
     ```
+
+8. Dentro do container app. Instalar dependências do projeto e gerar chave **"APP_KEY"** do **".env"**.
 
     ```sh
     composer install
@@ -100,7 +102,7 @@ Nesta base de passo a passo, você aprenderá como desenvolver um projeto Larave
     php artisan key:generate
     ```
 
-8. Acessar o projeto
+9. Acessar o projeto
    [http://localhost:8989](http://localhost:8989)
 
 ##### Interação com os Containers 🔹
@@ -108,7 +110,7 @@ Nesta base de passo a passo, você aprenderá como desenvolver um projeto Larave
 1.  Acessar terminal dos containers.
 
     ```sh
-    docker-compose exec <container_id ou nome_do_container> bash
+    docker compose exec <container_id ou nome_do_container> bash
     ```
 
 2.  Acessar diretamente o mysql de um container via terminal.
@@ -119,22 +121,25 @@ Nesta base de passo a passo, você aprenderá como desenvolver um projeto Larave
 
 3.  Iniciar serviços docker-compose / Remover os serviços do docker-compose.
     ```sh
-    docker-compose up -d
+    docker compose up -d
     ```
     ```sh
-    docker-compose down -v
+    docker compose down -v
     ```
 4.  Buildar a imagem. (No caso de alterações da configuração docker)
     ```sh
-    docker-compose build
+    docker compose build
     ```
     | OR
     ```sh
-    docker-compose up --build
+    docker compose up --build
     ```
-5.  Colocar arquivos dentro dos containers.
+5.  Colocar arquivos dentro dos containers / Pegar arquivos dos Containers.
     ```sh
-    docker cp <nome_do_arquivo> <nome_do_container>:/<pasta_do_container>
+    docker cp <nome_do_arquivo> <nome_do_container ou id_do_container>:/<pasta_do_container>
+    ```
+    ```sh
+    docker cp <id_do_container>:/<nome_do_arquivo> meuarquivo.js
     ```
 
 ### 3️⃣ Dicas e Precauções
