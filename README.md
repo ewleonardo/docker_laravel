@@ -53,8 +53,10 @@ sudo apt install git-all
 🔹 Criação do Projeto Laravel (Via Composer)
 
 ```sh
-sudo apt install docker-compose
+composer create-project laravel/laravel example-app
 ```
+> [!NOTE]
+> Instale seu Projeto Laravel de acordo com a versão desejada. [Documentação](https://laravel.com/docs/master/installation)
 
 🔹 Criação do Projeto Laravel (Via Git Clone)
 
