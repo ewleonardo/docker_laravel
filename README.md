@@ -21,25 +21,32 @@
 -   [Via Composer](https://laravel.com/docs/master#your-first-laravel-project)
 -   [Via Git Clone](https://github.com/laravel/laravel) -->
 
-Instalação do Docker 🔹
+🔹 Instalação do Docker
 
 ```sh
 sudo apt install docker* -y
 ```
 
-Instalação do docker-compose 🔹
+🔹 Instalação do docker-compose
 
 ```sh
 sudo apt install docker-compose
 ```
 
-Instalação do Git 🔹
+🔹 Instalação do Git
 
 ```sh
 sudo apt install git-all
 ```
 
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
+
+<div align=center>
+
 ### 2️⃣ Montagem do Ambiente
+
+</div>
 
 ##### Criação do projeto 🔹
 
