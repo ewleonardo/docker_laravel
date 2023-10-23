@@ -2,9 +2,10 @@ docker ➕ laravel
 
 <div align=center>
 teste
-</div>
 
 ## Setup Linux 🐧
+
+</div>
 
 ### 1️⃣ Instalação
 
