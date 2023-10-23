@@ -10,19 +10,19 @@
 
 </div>
 
- 1️⃣ Instalação das Ferramentas! 🔧
+##### 1️⃣ Instalação das Ferramentas! 🔧
 
 <!-- ##### Instalação do Laravel 🔹
 
 -   [Via Composer](https://laravel.com/docs/master#your-first-laravel-project)
 -   [Via Git Clone](https://github.com/laravel/laravel) -->
 
-##### Instalação do Docker 🔹
+Instalação do Docker 🔹
 
--   [Docker](https://docs.docker.com/desktop/install/linux-install/)
     ```sh
     sudo apt install docker* -y
     ```
+
 -   [docker-compose](https://docs.docker.com/compose/install/).
     ```sh
     sudo apt install docker-compose
