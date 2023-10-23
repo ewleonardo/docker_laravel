@@ -40,16 +40,18 @@ sudo apt install git-all
 ```
 
 > [!IMPORTANT]
-> A instalação das ferramentas é crucial para o projeto docker + laravel.
+> A instalação das ferramentas é crucial para o desenvolvimento do projeto Docker + Laravel.
+
+<br>
 
 <div align=center>
 
-### 2️⃣ Montagem do Ambiente
+### 2️⃣ Criando o Projeto Laravel!
 
 </div>
 
-##### Criação do projeto 🔹
-
+🔹 Criação do Projeto Laravel
+> Teste
 **_Instale(ou clone) o projeto laravel_**
 
 1. [Instalação do Laravel](https://github.com/ewleonardo/docker_laravel/tree/main#instala%C3%A7%C3%A3o-do-laravel-)
