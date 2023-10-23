@@ -1,7 +1,7 @@
 <p align="center">
   <!-- <a href="https://skillicons.dev"> -->
     <img src="https://skillicons.dev/icons?i=git,docker,laravel" />
-    <h2>Docker + Laravel</h2>
+    <h2 text-align="center">Docker + Laravel</h2>
   <!-- </a> -->
 </p>
 
