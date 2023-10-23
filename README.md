@@ -1,6 +1,6 @@
 docker ➕ laravel
 
-<p text-align=center>
+<p align=center>
 teste
 </p>
 
