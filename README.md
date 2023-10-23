@@ -1,8 +1,10 @@
 <p align="center">
-  <!-- <a href="https://skillicons.dev"> -->
+  <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,docker,laravel" />
-    <p>Docker + Laravel</p>
-  <!-- </a> -->
+  </a>
+    <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,docker,laravel" />
+  </a>
 </p>
 
 <div align=center>
