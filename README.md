@@ -56,7 +56,8 @@ sudo apt install git-all
 composer create-project laravel/laravel example-app
 ```
 
-> [!NOTE] Instale seu Projeto Laravel de acordo com a versão desejada. [(Documentação Laravel)](https://laravel.com/docs/master/installation#your-first-laravel-project).
+> [!NOTE] 
+> Instale seu Projeto Laravel de acordo com a versão desejada. [(Documentação Laravel)](https://laravel.com/docs/master/installation#your-first-laravel-project).
 
 <br>
 
@@ -66,7 +67,8 @@ composer create-project laravel/laravel example-app
 git clone https://github.com/laravel/laravel.git
 ```
 
-> [!NOTE] Instale seu Projeto Laravel de acordo com a versão desejada. [(Repositório Git do Laravel)](https://github.com/laravel/laravel/tree/10.x).
+> [!NOTE] 
+> Instale seu Projeto Laravel de acordo com a versão desejada. [(Repositório Git do Laravel)](https://github.com/laravel/laravel/tree/10.x).
 
 <!--
 
