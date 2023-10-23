@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://git-scm.com/doc">
+    <a href="https://git-scm.com/doc" target="_blank">
         <img src="https://skillicons.dev/icons?i=git" />
     </a>
     <a a href="https://docs.docker.com/">
