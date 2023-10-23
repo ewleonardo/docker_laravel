@@ -12,7 +12,7 @@
 
 <div align=center>
 
-#### 1️⃣ Instalação das Ferramentas! 🔧
+### 1️⃣ Instalação das Ferramentas! 🔧
 
 </div>
 
@@ -27,17 +27,17 @@ Instalação do Docker 🔹
 sudo apt install docker* -y
 ```
 
--   [docker-compose](https://docs.docker.com/compose/install/).
-    ```sh
-    sudo apt install docker-compose
-    ```
+Instalação do docker-compose 🔹
 
-##### Instalação do Git 🔹
+```sh
+sudo apt install docker-compose
+```
 
--   [Instalação do Git](https://github.com/git-guides/install-git).
-    ```sh
-    sudo apt install git-all
-    ```
+Instalação do Git 🔹
+
+```sh
+sudo apt install git-all
+```
 
 ### 2️⃣ Montagem do Ambiente
 
