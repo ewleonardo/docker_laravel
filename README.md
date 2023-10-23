@@ -16,31 +16,26 @@
 
 </div>
 
-<!-- ##### Instalação do Laravel 🔹
-
--   [Via Composer](https://laravel.com/docs/master#your-first-laravel-project)
--   [Via Git Clone](https://github.com/laravel/laravel) -->
-
-🔹 Instalação do Docker
+🔹 Instalação do Docker ⤵
 
 ```sh
 sudo apt install docker* -y
 ```
 
-🔹 Instalação do docker-compose
+🔹 Instalação do docker-compose ⤵
 
 ```sh
 sudo apt install docker-compose
 ```
 
-🔹 Instalação do Git
+🔹 Instalação do Git ⤵
 
 ```sh
 sudo apt install git-all
 ```
 
 > [!IMPORTANT]
-> A instalação das ferramentas é crucial para o desenvolvimento do projeto Docker + Laravel.
+> A instalação das ferramentas é CRUCIAL para o desenvolvimento do projeto Docker + Laravel.
 
 <br>
 
@@ -50,25 +45,31 @@ sudo apt install git-all
 
 </div>
 
-🔹 Criação do Projeto Laravel (Via Composer)
+🔹 Criação do Projeto Laravel (Via Composer) ⤵
 
 ```sh
 composer create-project laravel/laravel example-app
 ```
 
-> [!NOTE] 
+> [!NOTE]
 > Instale seu Projeto Laravel de acordo com a versão desejada. [(Documentação Laravel)](https://laravel.com/docs/master/installation#your-first-laravel-project).
 
 <br>
 
-🔹 Criação do Projeto Laravel (Via Git Clone)
+🔹 Criação do Projeto Laravel (Via Git Clone) ⤵
 
 ```sh
 git clone https://github.com/laravel/laravel.git
 ```
 
-> [!NOTE] 
+> [!NOTE]
 > Instale seu Projeto Laravel de acordo com a versão desejada. [(Repositório Git do Laravel)](https://github.com/laravel/laravel/tree/10.x).
+
+```sh
+cp .env.example .env
+```
+> [!NOTE]
+> Use este comando para criar o arquivo .ENV do projeto.
 
 <!--
 
