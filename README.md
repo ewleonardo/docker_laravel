@@ -1,24 +1,27 @@
-docker ➕ laravel
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=docker,➕,laravel" />
+  </a>
+</p>
 
 <div align=center>
-teste
 
 ## Setup Linux 🐧
 
 </div>
 
-### 1️⃣ Instalação
+### 1️⃣ Instalação das Ferramentas! 🔧
 
-##### Instalação do Laravel 🔹
+<!-- ##### Instalação do Laravel 🔹
 
 -   [Via Composer](https://laravel.com/docs/master#your-first-laravel-project)
--   [Via Git Clone](https://github.com/laravel/laravel)
+-   [Via Git Clone](https://github.com/laravel/laravel) -->
 
 ##### Instalação do Docker 🔹
 
 -   [Docker](https://docs.docker.com/desktop/install/linux-install/)
     ```sh
-    sudo apt install docker
+    sudo apt install docker* -y
     ```
 -   [docker-compose](https://docs.docker.com/compose/install/).
     ```sh
