@@ -1,10 +1,13 @@
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,docker,laravel" />
-  </a>
-    <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,docker,laravel" />
-  </a>
+    <a href="https://git-scm.com/doc">
+        <img src="https://skillicons.dev/icons?i=git" />
+    </a>
+    <a a href="https://docs.docker.com/">
+        <img src="https://skillicons.dev/icons?i=docker" />
+    </a>
+    <a href="https://laravel.com/docs/master">
+        <img src="https://skillicons.dev/icons?i=laravel" />
+    </a>
 </p>
 
 <div align=center>
