@@ -46,7 +46,7 @@ sudo apt install git-all
 
 <div align=center>
 
-### 2️⃣ Criando o Projeto Laravel!
+### 2️⃣ Criando o Projeto Laravel! <img src="https://skillicons.dev/icons?i=laravel" />
 
 </div>
 
