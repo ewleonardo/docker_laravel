@@ -51,8 +51,7 @@ sudo apt install git-all
 </div>
 
 🔹 Criação do Projeto Laravel
-> Teste
-**_Instale(ou clone) o projeto laravel_**
+> Pode ser feita "via composer" ou via "git clone"
 
 1. [Instalação do Laravel](https://github.com/ewleonardo/docker_laravel/tree/main#instala%C3%A7%C3%A3o-do-laravel-)
 
