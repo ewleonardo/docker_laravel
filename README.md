@@ -1,7 +1,7 @@
 <p align="center">
   <!-- <a href="https://skillicons.dev"> -->
     <img src="https://skillicons.dev/icons?i=docker" />
-    <span>➕</span>
+    <p>AND</p>
     <img src="https://skillicons.dev/icons?i=laravel" />
   <!-- </a> -->
 </p>
