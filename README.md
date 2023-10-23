@@ -39,8 +39,8 @@ sudo apt install docker-compose
 sudo apt install git-all
 ```
 
-> [!NOTE]
-> Highlights information that users should take into account, even when skimming.
+> [!IMPORTANT]
+> A instalação das ferramentas é crucial para o projeto docker + laravel.
 
 <div align=center>
 
