@@ -1,8 +1,8 @@
 docker ➕ laravel
 
-<p align=center>
+<div align=center>
 teste
-</p>
+</div>
 
 ## Setup Linux 🐧
 
