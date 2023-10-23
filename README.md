@@ -46,7 +46,7 @@ sudo apt install git-all
 
 <div align=center>
 
-### 2️⃣ Criando o Projeto Laravel! <img src="https://skillicons.dev/icons?i=laravel" />
+### 2️⃣ Criando o Projeto Laravel!
 
 </div>
 
@@ -56,17 +56,21 @@ sudo apt install git-all
 composer create-project laravel/laravel example-app
 ```
 
+> [!NOTE]
+> Instale seu Projeto Laravel de acordo com a versão desejada. [(Documentação Laravel)](https://laravel.com/docs/master/installation#your-first-laravel-project).
+
+<br>
+
 🔹 Criação do Projeto Laravel (Via Git Clone)
 
 ```sh
-sudo apt install docker-compose
+git clone https://github.com/laravel/laravel.git
 ```
 
 > [!NOTE]
-> Instale seu Projeto Laravel de acordo com a versão desejada. [Documentação Laravel](https://laravel.com/docs/master/releases#support-policy)
+> Instale seu Projeto Laravel de acordo com a versão desejada. [(Repositório Git do Laravel)](https://github.com/laravel/laravel/tree/10.x).
 
-<!-- 
-1. [Instalação do Laravel](https://github.com/ewleonardo/docker_laravel/tree/main#instala%C3%A7%C3%A3o-do-laravel-)
+<!--
 
 ##### Dockerizando o projeto 🔹
 
