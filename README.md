@@ -10,7 +10,7 @@
 
 </div>
 
-### 1️⃣ Instalação das Ferramentas! 🔧
+ 1️⃣ Instalação das Ferramentas! 🔧
 
 <!-- ##### Instalação do Laravel 🔹
 
