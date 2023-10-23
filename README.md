@@ -10,7 +10,11 @@
 
 </div>
 
+<div align=center>
+
 #### 1️⃣ Instalação das Ferramentas! 🔧
+
+</div>
 
 <!-- ##### Instalação do Laravel 🔹
 
@@ -19,9 +23,9 @@
 
 Instalação do Docker 🔹
 
-    ```sh
-    sudo apt install docker* -y
-    ```
+```sh
+sudo apt install docker* -y
+```
 
 -   [docker-compose](https://docs.docker.com/compose/install/).
     ```sh
