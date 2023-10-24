@@ -45,8 +45,6 @@ sudo apt install git-all
 
 <br>
 
-↧
-
 <div align=center>
 
 ### 2️⃣ Criando o Projeto Laravel! 🆕
@@ -175,7 +173,7 @@ php artisan key:generate
 <br>
 
 <!-- <div align=center>
-    
+
 ### 5️⃣ Comandos para manipulação dos containers!
 
 </div>
@@ -200,7 +198,7 @@ docker compose down -v
 <br>
 
 <div align=center>
-    
+
 ### 6️⃣ Recursos Adicionais!
 </div> -->
 
