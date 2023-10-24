@@ -4,9 +4,9 @@
     <a href="https://laravel.com/docs/master"><img src="https://skillicons.dev/icons?i=laravel" /></a>
 </p>
 
-<hr>
-
 <div align=center>
+
+<br>
 
 ## 🐧 Setup Linux 🐧
 
