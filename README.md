@@ -47,9 +47,11 @@ sudo apt install git-all
 
 <br>
 
+↧
+
 <div align=center>
 
-### 2️⃣ Criando o Projeto Laravel!
+### 2️⃣ Criando o Projeto Laravel! 🆕
 
 </div>
 
@@ -86,7 +88,7 @@ cp .env.example .env
 
 <div align=center>
     
-### 3️⃣ Adicionando configurações Docker no seu projeto Laravel!
+### 3️⃣ Adicionando configurações Docker no seu projeto Laravel! ⚙️
 
 </div>
 
@@ -108,7 +110,7 @@ cp -rf docker_laravel/* nome_do_projeto/
 
 🔹 Atualize as variáveis de ambiente do arquivo local **".ENV"** pelas seguintes informações. ⤵
 
-```
+```laravel
 APP_NAME="nome_do_projeto"
 APP_URL=http://localhost:8989
 
@@ -143,7 +145,7 @@ docker compose up -d
 
 <div align=center>
     
-### 4️⃣ Configurações finais do projeto!
+### 4️⃣ Configurações finais do projeto! 🏁
 
 </div>
 
