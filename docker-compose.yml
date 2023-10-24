@@ -1,7 +1,6 @@
 version: "3.7"
 
 services:
-    # image project
     app:
         build:
             context: .
@@ -15,7 +14,6 @@ services:
         networks:
             - laravel
 
-    # nginx
     nginx:
         image: nginx:alpine
         restart: unless-stopped
@@ -27,7 +25,6 @@ services:
         networks:
             - laravel
 
-    # db mysql
     db:
         image: mysql:5.7.22
         restart: unless-stopped
@@ -43,7 +40,6 @@ services:
         networks:
             - laravel
 
-    # redis
     redis:
         image: redis:latest
         networks:
