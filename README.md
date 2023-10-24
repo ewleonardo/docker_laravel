@@ -8,7 +8,7 @@
 
 <div align=center>
 
-### 🐧 Setup Linux 🐧
+## 🐧 Setup Linux 🐧
 
 </div>
 
