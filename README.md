@@ -232,7 +232,6 @@ docker exec -it container_id ou nome_do_container mysql -uroot -p
  ### ℹ️ Recursos Adicionais!
 </div> -->
 
-    
 <!--
 
 4.  Colocar arquivos dentro dos containers / Pegar arquivos dos Containers.
@@ -243,25 +242,8 @@ docker exec -it container_id ou nome_do_container mysql -uroot -p
     docker cp <id_do_container>:/<nome_do_arquivo> meuarquivo.js
     ```
 
-### 3️⃣ Dicas e Precauções
-
-##### Interação com os Containers 🔹
-
-1. [Comandos no bash MySQL](https://www.diegobrocanelli.com.br/mysql/comandos-basicos-mysql-no-terminal/);
-
-##### Interação com os Containers 🔹
-
-1. [Corrigir importação de muitos registros](https://pt.stackoverflow.com/questions/37520/erro-1153-do-mysql-got-a-packet-bigger-than-max-allowed-packet-bytes);
-
-### 4️⃣ Documentações e Fontes
-
-##### Documentações 🔹
-
-1. [Laravel](https://laravel.com/)
-
-2. [Docker](https://docs.docker.com/)
-
-3. [Git](https://docs.github.com/pt)
+[Comandos no bash MySQL](https://www.diegobrocanelli.com.br/mysql/comandos-basicos-mysql-no-terminal/);
+[Corrigir importação de muitos registros](https://pt.stackoverflow.com/questions/37520/erro-1153-do-mysql-got-a-packet-bigger-than-max-allowed-packet-bytes);
 
 ##### Fontes 🔹
 
