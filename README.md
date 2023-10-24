@@ -12,8 +12,6 @@
 
 </div>
 
-<hr>
-
 <div align=center>
 
 ### 1️⃣ Instalação das Ferramentas! 🔧
