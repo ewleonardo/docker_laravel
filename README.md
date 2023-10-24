@@ -73,15 +73,26 @@ cp .env.example .env
 
 <br>
 
+<div align=center>
+    
 ### 3️⃣ Adicionando configurações Docker no seu projeto Laravel!
 
+</div>
+
 <br>
 
+<div align=center>
+    
 ### 4️⃣ Comandos essênciais para manipulação dos containers!
 
+</div>
+
 <br>
 
+<div align=center>
+    
 ### 5️⃣ Recursos Adicionais!
+</div>
 
 <hr>
     
