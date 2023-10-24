@@ -73,6 +73,8 @@ git clone https://github.com/laravel/laravel.git
 > [!NOTE]
 > Instale seu Projeto Laravel de acordo com a versão desejada. [(Repositório Git do Laravel)](https://github.com/laravel/laravel/tree/10.x).
 
+<br>
+
 ```sh
 cp .env.example .env
 ```
