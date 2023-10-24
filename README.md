@@ -71,6 +71,20 @@ cp .env.example .env
 > [!NOTE]
 > Use este comando para criar o arquivo .ENV do projeto.
 
+<br>
+
+### 3️⃣ Adicionando configurações Docker no seu projeto Laravel!
+
+<br>
+
+### 4️⃣ Comandos essênciais para manipulação dos containers!
+
+<br>
+
+### 5️⃣ Recursos Adicionais!
+
+<hr>
+    
 <!--
 
 ##### Dockerizando o projeto 🔹
