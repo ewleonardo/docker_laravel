@@ -172,21 +172,17 @@ php artisan key:generate
 
 <br>
 
-<!-- <div align=center>
+<div align=center>
 
-### 5️⃣ Comandos para manipulação dos containers!
+### ℹ️ Comandos para manipulação dos containers! (OPCIONAL)
 
 </div>
 
-🔹 Iniciar containers docker-compose ⤵
+🔹 Iniciar/Remover containers docker-compose ⤵
 
 ```sh
 docker compose up -d
 ```
-
-<br>
-
-🔹 Parar containers docker-compose ⤵
 
 ```sh
 docker compose down -v
@@ -197,45 +193,49 @@ docker compose down -v
 
 <br>
 
-<div align=center>
+🔹 Buildar/Atualizar imagens ⤵
 
-### 6️⃣ Recursos Adicionais!
-</div> -->
+```sh
+docker compose build
+```
+
+| OR
+
+```sh
+docker compose up --build
+```
+
+<br>
+
+🔹 Acessar bash/terminal dos containers ⤵
+
+```sh
+docker compose exec nome_do_container bash
+```
+
+<br>
+
+🔹 Acessar serviço MySQL dos containers ⤵
+
+```sh
+docker exec -it container_id ou nome_do_container mysql -uroot -p
+```
+
+<br>
 
 <hr>
+
+<!--
+
+<div align=center>
+
+ ### ℹ️ Recursos Adicionais!
+</div> -->
+
     
 <!--
 
-##### Interação com os Containers 🔹
-
-1.  Acessar terminal dos containers.
-
-    ```sh
-    docker compose exec <nome_do_container> bash
-    ```
-
-2.  Acessar diretamente o mysql de um container via terminal.
-
-    ```sh
-    docker exec -it <container_id ou nome_do_container> mysql -uroot -p
-    ```
-
-3.  Iniciar serviços docker-compose / Remover os serviços do docker-compose.
-    ```sh
-    docker compose up -d
-    ```
-    ```sh
-    docker compose down -v
-    ```
-4.  Buildar a imagem. (No caso de alterações da configuração docker)
-    ```sh
-    docker compose build
-    ```
-    | OR
-    ```sh
-    docker compose up --build
-    ```
-5.  Colocar arquivos dentro dos containers / Pegar arquivos dos Containers.
+4.  Colocar arquivos dentro dos containers / Pegar arquivos dos Containers.
     ```sh
     docker cp <nome_do_arquivo> <nome_do_container ou id_do_container>:/<pasta_do_container>
     ```
