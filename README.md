@@ -158,6 +158,10 @@ composer install
 ```
 
 ```sh
+composer require predis/predis
+```
+
+```sh
 php artisan key:generate
 ```
 
