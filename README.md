@@ -165,6 +165,10 @@ composer require predis/predis
 php artisan key:generate
 ```
 
+```sh
+php artisan config:cache
+```
+
 > [!NOTE]
 > Execute os comandos acima dentro do bash/terminal do container onde está o projeto Laravel!.
 
