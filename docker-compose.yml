@@ -40,6 +40,17 @@ services:
         networks:
             - laravel
 
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin:latest
+        restart: always
+        ports:
+            # 8090 is the host port and 80 is the docker port
+            - 8090:80
+        depends_on:
+            - db
+        networks:
+            - laravel
+
     redis:
         image: redis:latest
         networks:
